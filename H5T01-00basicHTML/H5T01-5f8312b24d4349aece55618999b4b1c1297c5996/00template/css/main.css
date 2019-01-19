@@ -1,3 +1,11 @@
+/* Global Tag Style */
+ul {
+    margin: 0;
+    padding:  0;
+}
+
+/* My Style, 커스터마이징 */
+
 #wrapper {
     width: 1000px;
     margin: 0 auto;
@@ -12,7 +20,71 @@ img {
     font-size: 2rem;
    
 }
-#header a {
+ a {
     text-decoration: none;
     color:  #000000;
 }
+#nav ul {
+    list-style: none;
+    }
+    #nav ul li {
+        display:  inline-block;
+        width:  100px;
+        text-align: center;
+        background-color: #ff00ff;
+        padding: 10px;
+
+    }
+    #nav ul li a {
+        color: white;
+    }
+    #nav ul.menus {
+        float:  left;
+
+    }
+    #nav ul.icons {
+        float: right;
+
+    }
+    #main {
+        clear: both;
+    }
+    .featured header {
+        margin-top: 88px;
+        padding:  flex;
+        
+    }
+    .featured header h2 {
+        text-align: center;
+
+    }
+    #footer {
+        border-top: solid 1px #ff0000;
+                padding-top: 30px;
+                      
+    }
+    #footer .contact {
+        flex: 1;
+        padding: 30px;
+    }
+    #footer .info {
+        flex: 2;
+    }
+    #footet .contact label,
+    #footer .contact input {
+        display: block;
+
+    }
+    #footer .contact label {
+        margin-bottom: 10px;
+
+    }
+    #footer .contact input{
+        margin-bottom: 30px;
+        width: 100%;
+        height: 20px;
+    }
+    #footer .info ul {
+        list-style: none;
+        display:  inline;
+    }
